@@ -8,7 +8,6 @@ public class AnketaScript : MonoBehaviour
 {
     public TMP_InputField nameInputField;
     public TMP_Text nameTmpText;
-    
     public TMP_InputField ageInputField;
     public TMP_Text birthDayYearTmpText;
     
