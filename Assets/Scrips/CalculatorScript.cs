@@ -15,6 +15,11 @@ public class CalculatorScript : MonoBehaviour {
     public void OnButtonPlus() {
     }
 
+    public void OnButtonPuls() {
+        float value1 = ReadloadFromInputFiald(inputField1); 
+        float value2 = ReadloadFromInputFiald(inputField2);
+        outputText.text = (value1 - value2).ToString();
+    }
     private float ReadloadFromInputFiald(TMP_InputField inputField) {
         string str = inputField.text;
         if (str !=null && str.Length > 0) { 
